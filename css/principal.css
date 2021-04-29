@@ -1,0 +1,71 @@
+/* alt 1+2+3 = {}*/
+/* fin , fn 1+2+3 */
+/* alt 1+2+5 }*/
+/*  *=> referencia toda la web  */
+/*  2 formas colocar web:
+    hexadecimales: 	#FF0000 = rojo
+    color en ingles: red ,yellow,etc
+    resoluciones: medidas texto,imagenes.
+    % : 50% 
+    px: width=200px
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:#fff;
+}
+header, .main ,footer{
+    background:#fff;
+    width: 90%;
+    max-width: 1000px;
+    margin:20px auto;
+}
+header nav{
+    background: blue;
+    overflow: hidden; /* las viñetas las ocultos*/
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float :left;
+}
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: black;
+}
+/* trabajan juntos 1 */
+.main  .articles{
+    width:68.5% ;
+    margin-right: 1.5%;
+    float: left; /*manual:left , right inviertiendo lasp posiciones*/
+}
+/* trabajan juntos 2  */
+.main .articles article{
+    padding:20px;
+    background: white;
+    margin-top: 20px;
+}
+
+aside {
+    width: 30%;
+    background:white;
+    float:left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer{
+    background: blue;
+    color:cornsilk;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+}
